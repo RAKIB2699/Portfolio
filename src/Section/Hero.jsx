@@ -3,13 +3,13 @@ import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export default function Hero() {
   return (
-    <section className="min-h-screen bg-gray-900 text-white flex flex-col px-6 md:px-20">
+    <section id="home" className="min-h-screen bg-gray-900 text-white flex flex-col px-6 md:px-20">
       {/* Navbar */}
       <nav className="flex justify-between items-center py-6">
         <h1 className="font-bold text-lg">Rakib Hasan</h1>
         <ul className="hidden md:flex space-x-8">
           <li><a href="#home" className="hover:text-orange-400">Home</a></li>
-          <li><a href="/about" className="hover:text-orange-400">About</a></li>
+          <li><a href="#about" className="hover:text-orange-400">About</a></li>
           <li><a href="#projects" className="hover:text-orange-400">Projects</a></li>
           <li><a href="#contact" className="hover:text-orange-400">Contacts</a></li>
         </ul>
