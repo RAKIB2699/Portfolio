@@ -61,7 +61,7 @@ export default function Hero() {
                 <FaLinkedin />
               </a>
               <a
-                href="https://twitter.com/yourtwitter"
+                href="https://x.com/HasanRakib54969"
                 target="_blank" 
                 rel="noopener noreferrer"
                 aria-label="Twitter"

@@ -114,6 +114,7 @@ export default function Contact() {
             </a>
           </p>
           <p className="mt-2">Phone: +8801645172698</p>
+          <p className="mt-2">WhatsApp: +8801645172698</p>
           <p className="mt-2">Location: Mymensingh, Bangladesh</p>
         </div>
       </div>
