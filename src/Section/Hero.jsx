@@ -1,4 +1,4 @@
-import profilePhoto from "../assets/profile-removebg-preview.png"; // swap for your image
+import profilePhoto from "../assets/profile-removebg-preview.png"; 
 import { FaGithub, FaLinkedin, FaTwitter } from "react-icons/fa";
 
 export default function Hero() {
@@ -9,7 +9,7 @@ export default function Hero() {
         <h1 className="font-bold text-lg">Rakib Hasan</h1>
         <ul className="hidden md:flex space-x-8">
           <li><a href="#home" className="hover:text-orange-400">Home</a></li>
-          <li><a href="#about" className="hover:text-orange-400">About</a></li>
+          <li><a href="/about" className="hover:text-orange-400">About</a></li>
           <li><a href="#projects" className="hover:text-orange-400">Projects</a></li>
           <li><a href="#contact" className="hover:text-orange-400">Contacts</a></li>
         </ul>
