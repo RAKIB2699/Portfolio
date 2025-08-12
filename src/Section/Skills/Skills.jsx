@@ -16,11 +16,11 @@ const skills = [
 
 export default function Skills() {
   return (
-    <section id="skills" className="bg-gray-900 py-16 px-6 md:px-20">
+    <section id="skills" className="bg-gray-900 mx-w-[1600px] pt-28 py-16 px-6">
       <h2 className="text-4xl font-bold text-center text-orange-500 mb-12">
         Skills
       </h2>
-      <div className="max-w-5xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8">
+      <div className="w-11/12 mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-8">
         {skills.map(({ name, icon }) => (
           <div
             key={name}

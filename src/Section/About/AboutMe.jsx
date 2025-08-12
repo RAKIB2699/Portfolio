@@ -2,7 +2,7 @@ export default function AboutMe() {
   return (
     <section
       id="about"
-      className="bg-gray-900 py-16 px-6 md:px-20 flex justify-center"
+      className="bg-gray-900 py-16 pt-24 px-6 max-w-[1600px] flex justify-center"
     >
       <div className="bg-gray-800 bg-opacity-60 backdrop-blur-md rounded-3xl shadow-xl max-w-4xl p-10 text-gray-200">
         <h2 className="text-4xl font-bold text-center text-orange-400 mb-10">
