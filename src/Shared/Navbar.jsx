@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import logo from "../../public/Font_Black_and_White_Elegant_Logo__2_-removebg-preview.png"
 
 export default function Navbar() {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -20,9 +21,13 @@ export default function Navbar() {
                 {/* Logo */}
                 <a
                     href="#home"
-                    className="text-2xl font-bold bg-gradient-to-r from-pink-500 via-purple-500 to-indigo-500 bg-clip-text text-transparent"
+                
                 >
-                    RH
+                    <img
+                        src={logo}
+                        alt="Portfolio Logo"
+                        className="h-12 w-auto object-contain"
+                    />
                 </a>
 
                 {/* Desktop Menu */}
